@@ -1,4 +1,0 @@
-ToolSet: 17.0 (local)@D:\IDE-ji\VSC
-Options: 
-
-Options:-DCMAKE_MAKE_PROGRAM=D:/IDE-ji/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe
