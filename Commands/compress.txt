@@ -1,0 +1,9 @@
+C ../data/OBJ/4Scube.obj ../data/ASCII A NC
+C ../data/OBJ/nonMain1.obj ../data/ASCII A NC
+C ../data/OBJ/simpleMain1.obj ../data/ASCII A NC
+C ../data/OBJ/strip1.obj ../data/ASCII A C
+C ../data/OBJ/man1.obj ../data/ASCII A C
+C ../data/OBJ/mantis.obj ../data/ASCII A C
+C ../data/OBJ/cube.obj ../data/ASCII A NC
+C ../data/OBJ/s_cube.obj ../data/ASCII A NC
+C ../data/OBJ/bot.obj ../data/ASCII A NC
