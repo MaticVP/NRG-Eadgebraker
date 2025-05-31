@@ -5,10 +5,21 @@
 #ifndef EDGEBRAKER_EBBINSTREAMIO_H
 #define EDGEBRAKER_EBBINSTREAMIO_H
 
+#ifdef _WIN32
+#include <io.h>
+#define read  _read
+#define write _write
+#else
+#include <unistd.h>  // for read, write on Linux/macOS
+#endif
+
 #include "EBdatatypes.h"
 #include <string>
 #include <vector>
 #include <assert.h>
+#include <fstream>
+#include <iostream>
+
 using std::string;
 using std::vector;
 
@@ -18,7 +29,7 @@ public:
     int openFileWrite(char* filename);
     int openFileRead(char* filename);
 
-    void close(int fd);
+    static void close(int fd);
 
     // Basic read/write functions...
     void writeShortArray (int fd, short* buffer,  int count);

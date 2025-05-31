@@ -11,6 +11,8 @@
 #include "EdgebreakerDecompress.h"
 #include <algorithm>
 #include <filesystem>
+#include <iostream>
+#include <sstream>
 
 using namespace std;
 

@@ -10,6 +10,7 @@
 #include <map>
 #include <sstream>
 #include "EdgeBreakerCompress.h"
+#include "EBBinStreamIO.h"
 #include "EBUtils.h"
 using namespace std;
 
