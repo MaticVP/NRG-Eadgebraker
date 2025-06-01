@@ -256,5 +256,5 @@ Vertex EdgebreakerDecompress::DecodeWithPrediction(int c)
 
 Vertex EdgebreakerDecompress::DecodeDelta(int c)
 {
-    return DecodeWithPrediction(c);
+    return DecodeNoPrediction(c);
 }

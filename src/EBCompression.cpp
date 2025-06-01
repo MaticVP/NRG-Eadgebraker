@@ -204,7 +204,7 @@ void EdgeBreakerCompress::EncodeDelta(int c)
     if ((dummyVertices.size() > 0) && (V[c] >= dummyVertices[0]))
         newDummy.push_back(vertices.size());
 
-    //EncodeNoPrediction(c);
-    EncodeWithPrediction(c);
+    EncodeNoPrediction(c);
+    //EncodeWithPrediction(c);
 
 }
