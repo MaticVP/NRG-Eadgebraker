@@ -1,0 +1,14 @@
+MANIFOLD
+6
+C
+C
+S
+C
+C
+R
+R
+L
+R
+E
+R
+E
