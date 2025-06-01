@@ -17,7 +17,7 @@ EdgeBreaker is a topological compression scheme that efficiently encodes the con
 
 ## Installation
 
-To build this repository, it is recommended to use **CMake**. The example below is for Windows and MSVC, but the workflow should be similar on other OSes. The build was tested on Windows.
+To build this repository, it is recommended to use CMake. The example below is for Windows and MSVC, but the workflow should be similar on other operating systems. The build has been tested on Windows. If you don't want to build the repository yourself, you can simply use the precompiled executable of the algorithm.
 
 Clone the repository:
 
